@@ -59,6 +59,7 @@ export const PipelineUI = () => {
         return {id: nodeID, nodeType: `${type}`};
     }
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const onDrop = useCallback(
         (event) => {
           event.preventDefault();

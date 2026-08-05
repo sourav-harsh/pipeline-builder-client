@@ -1,7 +1,7 @@
 // BaseNode.js - Abstract base component for all node types
 
 import { useState } from 'react';
-import { Handle, Position } from 'reactflow';
+import { Handle } from 'reactflow';
 
 export const BaseNode = ({
   id,
